@@ -3,10 +3,10 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { signout } from "@/lib/auth-actions";
+import { signout } from "@/app/lib/auth-actions";
 import { Button } from "./button";
-import { createClient } from "../../../utils/supabase/client";
-import { User } from "@/lib/types";
+import { createClient } from "../../app/utils/supabase/client";
+import { User } from "@/app/lib/types";
 
 
 const LoginButton = () => {

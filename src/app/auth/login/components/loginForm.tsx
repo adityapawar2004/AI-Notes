@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "@/app/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { login } from "@/lib/auth-actions"
+import { login } from "@/app/lib/auth-actions"
 import SignInWithGoogleButton from "./SignInWithGoogleButton"
 export function LoginForm({
   className,
