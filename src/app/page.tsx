@@ -1,8 +1,8 @@
 
+import React from 'react';
 import LoginButton from "@/components/ui/LoginLogoutButton";
 import UserGreetText from "@/components/ui/UserGreetText";
-import Image from "next/image";
-import Page from "./auth/signup/page";
+
 
 export default function Home() {
   return (
